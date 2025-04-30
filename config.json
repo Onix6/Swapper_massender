@@ -1,0 +1,21 @@
+{
+  "rpc_url": "https://mainnet.infura.io/v3/YOUR_PROJECT_ID",
+  "contract_address": "0xYourContractAddress",
+  "wallet_addresses": ["0xWallet1", "0xWallet2"],
+  "telegram": {
+    "bot_token": "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11",
+    "chat_id": "987654321"
+  },
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {"indexed": true, "name": "sender", "type": "address"},
+        {"indexed": false, "name": "amount0In", "type": "uint256"},
+        {"indexed": false, "name": "amount1Out", "type": "uint256"}
+      ],
+      "name": "Swap",
+      "type": "event"
+    }
+  ]
+}
